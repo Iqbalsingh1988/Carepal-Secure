@@ -1,0 +1,3133 @@
+/* common css start  */
+
+.heading_main .fs-40 {
+  color: var(--theme-heading);
+  text-align: center;
+  font-weight: 700;
+}
+
+.heading_main .fs-40 span {
+  color: var(--theme-primary);
+}
+
+.sub_heading .fs-28 {
+  color: var(--theme-sub-heading);
+  text-align: center;
+  font-weight: 700;
+}
+
+.gray_bg_gradient {
+  position: relative;
+  width: 100%;
+  padding-bottom: min(14.47917vw, 17.375rem);
+}
+
+.gray_bg_gradient::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  background: linear-gradient(180deg, #FFF 0%, #F6F6FB 46.84%);
+}
+
+.gray_bg_gradient_second {
+  position: relative;
+  width: 100%;
+}
+
+.gray_bg_gradient_second::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  background: linear-gradient(180deg, #FFF 0%, #F6F6FB 46.84%);
+}
+
+/* common css end  */
+
+
+/* header section start  */
+
+.header_section {
+  position: relative;
+  width: 100%;
+  padding: min(1.04167vw, 1.25rem) 0px;
+}
+
+.header_section .header_img {
+  max-width: min(11.30208vw, 13.5625rem);
+  width: 100%;
+}
+
+.header_section .header_img img {
+  width: 100%;
+}
+
+
+@media only screen and (max-width: 1199px) {
+  .header_section .header_img {
+    max-width: min(15.30208vw, 13.5625rem);
+  }
+
+  .header_section {
+    padding: 18px 0px;
+  }
+}
+  @media only screen and (max-width: 991px) {
+    .header_section .header_img {
+      max-width: min(20.30208vw, 13.5625rem);
+    }
+
+  }
+
+  @media only screen and (max-width: 767px) {
+    .header__inner {
+      justify-content: space-between;
+    }
+
+    .header_section .header_img {
+      max-width: 140px;
+    }
+
+    .knee_banner_right .heading .fs-28 {
+      margin-bottom: 25px;
+    }
+
+  }
+
+  /* header section end  */
+
+  /* Banner CSS Start */
+
+  .knee_banner {
+    position: relative;
+    overflow: hidden;
+  }
+
+  .knee_banner_img {
+    max-width: 100%;
+    height: auto;
+  }
+
+  .knee_banner_left .heading_main .fs-52 span {
+    color: var(--theme-secondary);
+  }
+
+  .knee_banner_inner {
+    padding: min(9.375vw, 11.25rem) 0;
+  }
+
+  .knee_banner .knee_banner_inner .row {
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .knee_banner_left .heading_main {
+    width: 100%;
+    max-width: min(32.08333vw, 38.5rem);
+    margin-bottom: min(1.667vw, 2rem);
+  }
+
+  .knee_banner_left .heading_main .fs-52 {
+    color: var(--theme-white);
+    text-align: left;
+    font-size: min(2.70833vw, 3.25rem);
+    font-weight: 700;
+  }
+
+  .knee_banner_left .content_wrap {
+    color: var(--theme-white);
+  }
+
+  .knee_banner_cnt {
+    color: var(--theme-white);
+    font-weight: 600;
+    padding-top: min(4.688vw, 5.625rem);
+  }
+
+  .knee_banner_left {
+    width: 100%;
+    max-width: min(33.07292vw, 39.6875rem);
+  }
+
+  .knee_banner_right {
+    background: #ffffffe6;
+    backdrop-filter: blur(10px);
+    padding: min(2.24vw, 2.6875rem) min(1.354vw, 1.625rem) min(2.604vw, 3.125rem) min(1.563vw, 1.875rem);
+    border-radius: 0.83333vw;
+    -webkit-border-radius: 0.83333vw;
+    -moz-border-radius: 0.83333vw;
+    -ms-border-radius: 0.83333vw;
+    -o-border-radius: 0.83333vw;
+  }
+
+  .knee_banner_list {
+    position: relative;
+    padding-left: min(0.52083vw, 0.625rem);
+    padding-right: min(1.04167vw, 1.25rem);
+  }
+
+  .knee_banner_list li {
+    padding: min(1.458vw, 1.75rem) 0;
+    position: relative;
+    padding-left: min(1.82292vw, 2.1875rem);
+  }
+
+  .knee_banner_list li::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    background-image: url(../images/surgery-recommendation/arrow-list.webp);
+    background-size: cover;
+    width: min(0.938vw, 1.125rem);
+    height: min(0.938vw, 1.125rem);
+    top: 38%;
+    transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+  }
+
+  .knee_banner_list li:first-child {
+    padding-top: 0px;
+  }
+
+  .knee_banner_list li:first-child::before {
+    top: 30%;
+  }
+
+  .knee_banner_list li span {
+    color: var(--theme-primary);
+    font-weight: 600;
+  }
+
+  .knee_banner_right .heading {
+    width: 100%;
+    max-width: min(16.14583vw, 19.375rem);
+    text-align: center;
+    margin: auto;
+    margin-bottom: min(2.292vw, 2.75rem);
+  }
+
+  .knee_banner_right .heading .fs-28 {
+    color: var(--theme-content);
+    font-weight: 700;
+    line-height: 1.35;
+  }
+
+  .knee_banner_list li::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 1px;
+    background: rgba(79, 79, 79, 0.20);
+  }
+
+  .knee_banner_btn .primary_btn {
+    width: 100%;
+    justify-content: center;
+    padding: min(0.833vw, 1rem) min(2.5vw, 3rem);
+    border-radius: 0.52083vw;
+    -webkit-border-radius: 0.52083vw;
+    -moz-border-radius: 0.52083vw;
+    -ms-border-radius: 0.52083vw;
+    -o-border-radius: 0.52083vw;
+  }
+
+  .knee_banner_btn {
+    margin-top: min(1.5625vw, 1.875rem);
+  }
+
+  .knee_banner_list li p {
+    color: var(--theme-content);
+    font-weight: 400;
+  }
+
+
+  @media only screen and (max-width: 1199px) {
+
+    .knee_banner_right .heading {
+      max-width: 65%;
+    }
+
+    .knee_banner_list li::before {
+      width: 20px;
+      height: 20px;
+    }
+
+    .knee_banner_list li {
+      padding: 16px;
+      padding-left: 32px;
+    }
+
+    .knee_banner_list li:first-child::before {
+      top: 20%;
+    }
+
+    .knee_banner_btn {
+      margin-top: 25px;
+    }
+
+    .knee_banner_btn .primary_btn {
+      padding: 15px;
+      font-size: 16px;
+      border-radius: 10px;
+      -webkit-border-radius: 10px;
+      -moz-border-radius: 10px;
+      -ms-border-radius: 10px;
+      -o-border-radius: 10px;
+    }
+
+    .knee_banner_left {
+      max-width: min(40.07292vw, 39.6875rem);
+    }
+
+  }
+
+
+  @media only screen and (max-width: 991px) {
+    .knee_banner_left {
+      max-width: 100%;
+    }
+
+    .knee_banner_btn .primary_btn {
+      padding: 10px 15px;
+    }
+  }
+
+  @media only screen and (max-width: 767px) {
+    .knee_banner_inner {
+      padding: 50px 0px;
+    }
+
+    .knee_banner_left .heading_main .fs-52 {
+      font-size: 30px;
+    }
+
+    .knee_banner_left .heading_main {
+      max-width: 100%;
+      margin-bottom: 22px;
+    }
+
+    .knee_banner_right {
+      margin-top: 30px;
+      padding: 25px;
+      border-radius: 12px;
+    }
+
+    .knee_banner_right .heading {
+      max-width: 100%;
+      margin-bottom: 20px;
+      text-align: left;
+    }
+  }
+
+  /* Banner CSS Start */
+
+  /* What is Knee Replacement Surgery section start  */
+
+  .what_knee_replacement_section {
+    position: relative;
+    width: 100%;
+    padding-top: min(5.98959vw, 7.1875rem);
+  }
+
+  .what_knee_replacement_section .what_knee_replacement_row {
+    width: 100%;
+    padding-top: min(2.60417vw, 3.125rem);
+  }
+
+  .what_knee_replacement_section .what_knee_replacement_row .what_knee_replacement_img {
+    width: 100%;
+    max-width: min(40.41667vw, 48.5rem);
+    overflow: hidden;
+    border-radius: 0.83333vw;
+    -webkit-border-radius: 0.83333vw;
+    -moz-border-radius: 0.83333vw;
+    -ms-border-radius: 0.83333vw;
+    -o-border-radius: 0.83333vw;
+  }
+
+  .what_knee_replacement_section .what_knee_replacement_row .what_knee_replacement_img img {
+    width: 100%;
+  }
+
+  .what_knee_replacement_section .what_knee_replacement_row .fs-20,
+  .what_knee_replacement_section .what_knee_replacement_row .fs-20>* {
+    color: var(--theme-content);
+    font-weight: 400;
+    line-height: 1.55;
+  }
+
+  .what_knee_replacement_section .what_knee_replacement_row .fs-20 span {
+    font-weight: 700;
+  }
+
+  .what_knee_replacement_section .what_knee_replacement_row .fs-20 {
+    padding-top: 8px;
+  }
+
+  .what_knee_replacement_section .what_knee_replacement_row .fs-20>* {
+    padding-bottom: min(1.82292vw, 2.1875rem);
+  }
+
+  .what_knee_replacement_section .what_knee_replacement_row .fs-20>*:last-child {
+    padding-bottom: 0px;
+  }
+
+  @media only screen and (max-width: 1199px) {
+    .what_knee_replacement_section .what_knee_replacement_row .what_knee_replacement_img {
+      max-width: min(44.41667vw, 48.5rem);
+    }
+  }
+
+  @media only screen and (max-width: 991px) {
+    .what_knee_replacement_section .what_knee_replacement_row .fs-20 {
+      padding-top: 20px;
+    }
+
+    .what_knee_replacement_section .what_knee_replacement_row {
+      padding-top: 30px;
+    }
+
+    .what_knee_replacement_section .what_knee_replacement_row .what_knee_replacement_img {
+      max-width: 80%;
+      border-radius: 15px;
+      overflow: hidden;
+      margin: auto;
+    }
+  }
+
+  @media only screen and (max-width: 767px) {
+    .what_knee_replacement_section {
+      padding-top: 35px;
+    }
+
+    .what_knee_replacement_section .what_knee_replacement_row .what_knee_replacement_img {
+      max-width: 100%;
+    }
+  }
+
+  /* What is Knee Replacement Surgery section end  */
+
+  /* Knee Replacement Surgery Recommended css start */
+
+  .surgery_recommendation_section {
+    width: 100%;
+    position: relative;
+    padding-top: min(4.6875vw, 5.625rem);
+  }
+
+  .surgery_recommendation_section .sub_heading .fs-28 {
+    text-align: left;
+  }
+
+  .surgery_recommendation_section .sub_heading .content_wrap {
+    margin-top: min(1.04167vw, 1.25rem);
+  }
+
+  .surgery_recommendation_section .sub_heading .content_wrap {
+    color: var(--theme-content);
+    font-weight: 400;
+  }
+
+  .surgery_recommendation_section .content_wrap span {
+    font-weight: 600;
+  }
+
+  .surgery_recommendation_img {
+    width: 100%;
+    max-width: min(44.27083vw, 53.125rem);
+    overflow: hidden;
+    border-radius: 0.83333vw;
+    -webkit-border-radius: 0.83333vw;
+    -moz-border-radius: 0.83333vw;
+    -ms-border-radius: 0.83333vw;
+    -o-border-radius: 0.83333vw;
+  }
+
+  .surgery_recommendation_img img {
+    width: 100%;
+  }
+
+  .surgery_recommendation_img::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0.68;
+    background: linear-gradient(180deg, rgba(21, 119, 188, 0.00) 51.48%, #1577BC 100%);
+    border-radius: 0.52083vw;
+    -webkit-border-radius: 0.52083vw;
+    -moz-border-radius: 0.52083vw;
+    -ms-border-radius: 0.52083vw;
+    -o-border-radius: 0.52083vw;
+  }
+
+  .surgery_recommendation_inner {
+    margin-top: min(1.04167vw, 1.25rem);
+  }
+
+  .surgery_recommendation1_list {
+    padding: 0px;
+    margin: 0px;
+  }
+
+  .surgery_recommendation1_list li {
+    width: 100%;
+    max-width: min(41.66667vw, 50rem);
+    margin-bottom: min(2.08333vw, 2.5rem);
+    position: relative;
+    padding-left: min(2.34375vw, 2.8125rem);
+    color: var(--theme-content);
+  }
+
+  .surgery_recommendation1_list li:last-child {
+    margin-bottom: 0px;
+  }
+
+  .surgery_recommendation1_list li::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    background-image: url(../images/surgery-recommendation/arrow-list.webp);
+    background-size: cover;
+    width: min(1.40625vw, 1.6875rem);
+    height: min(1.40625vw, 1.6875rem);
+  }
+
+  .surgery_recommendation_section .swiper-pagination-bullet.swiper-pagination-bullet-active {
+    background: #D9D9D9;
+    border-radius: 0.625vw;
+    -webkit-border-radius: 0.625vw;
+    -moz-border-radius: 0.625vw;
+    -ms-border-radius: 0.625vw;
+    -o-border-radius: 0.625vw;
+  }
+
+  .surgery_recommendation_section .swiper-pagination-bullet {
+    width: min(0.625vw, 0.75rem);
+    height: min(0.625vw, 0.75rem);
+    background: #D9D9D9;
+  }
+
+  @media only screen and (max-width: 1199px) {
+
+    .surgery_recommendation1_list li {
+      margin-bottom: 15px;
+      padding-left: 32px;
+    }
+
+    .surgery_recommendation_inner {
+      margin-top: 25px;
+    }
+
+    .surgery_recommendation1_list li::before {
+      width: 20px;
+      height: 20px;
+      margin-top: 5px;
+    }
+
+    .surgery_recommendation_section .sub_heading .content_wrap {
+      margin-top: 15px;
+    }
+
+    .surgery_recommendation_section .swiper-pagination-bullet {
+      width: 10px;
+      height: 10px;
+    }
+
+  }
+
+  @media only screen and (max-width: 991px) {
+    .surgery_recommendation1_list li {
+      width: 100%;
+      max-width: 100%;
+    }
+
+    .surgery_recommendation1_list li {
+      margin-bottom: 22px;
+      padding-left: 35px;
+    }
+
+    .surgery_recommendation_img {
+      max-width: 80%;
+      margin: auto;
+      overflow: hidden;
+      border-radius: 15px;
+      -webkit-border-radius: 15px;
+      -moz-border-radius: 15px;
+      -ms-border-radius: 15px;
+      -o-border-radius: 15px;
+    }
+
+    .surgery_recommendation_img::before {
+      max-width: 80%;
+      margin: auto;
+      overflow: hidden;
+      border-radius: 15px;
+      -webkit-border-radius: 15px;
+      -moz-border-radius: 15px;
+      -ms-border-radius: 15px;
+      -o-border-radius: 15px;
+    }
+
+    .surgery_recommendation_right {
+      margin-bottom: 40px;
+      margin-top: 10px;
+    }
+
+    .surgery_recommendation_right .surgery_recommendation_slider .swiper-pagination {
+      bottom: 18px;
+    }
+
+    .surgery_recommendation_inner>.row {
+      flex-direction: column-reverse;
+    }
+
+  }
+
+  @media only screen and (max-width: 767px) {
+    .surgery_recommendation_section {
+      padding-top: 35px;
+  }
+
+    .surgery_recommendation_img {
+      max-width: 100%;
+    }
+
+    .surgery_recommendation_right {
+      margin-bottom: 30px;
+      margin-top: 5px;
+    }
+
+    .surgery_recommendation_img::before {
+      max-width: 100%;
+    }
+
+    .surgery_recommendation_section .swiper-pagination-bullet.swiper-pagination-bullet-active {
+      border-radius: 100%;
+      -webkit-border-radius: 100%;
+      -moz-border-radius: 100%;
+      -ms-border-radius: 100%;
+      -o-border-radius: 100%;
+    }
+
+    .surgery_recommendation_right .surgery_recommendation_slider .swiper-pagination {
+      bottom: 12px;
+    }
+  }
+
+  /* Knee Replacement Surgery Recommended css end */
+
+  /* Types of Knee Replacement Surgery in Mumbai section start */
+
+  .type_knee_surgery_section {
+    position: relative;
+    width: 100%;
+    padding-top: min(5.20833vw, 6.25rem);
+  }
+
+  .type_knee_surgery_section .type_knee_surgery_inr {
+    margin-top: min(2.08333vw, 2.5rem);
+    width: 100%;
+    position: relative;
+  }
+
+  .type_knee_surgery_section .type_knee_surgery_col {
+    box-shadow: 0 4px 20px 0 rgba(0, 0, 0, 0.15);
+  }
+
+  .type_knee_surgery_section .type_knee_surgery_col,
+  .type_knee_surgery_section .type_knee_surgery_img,
+  .type_knee_surgery_section .type_knee_surgery_img img {
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+    border-radius: 0.52083vw;
+    -webkit-border-radius: 0.52083vw;
+    -moz-border-radius: 0.52083vw;
+    -ms-border-radius: 0.52083vw;
+    -o-border-radius: 0.52083vw;
+  }
+
+  .type_knee_surgery_section .type_knee_surgery_img::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    background: var(--theme-gradient);
+    z-index: 1;
+  }
+
+  .type_knee_surgery_section .type_knee_surgery_col .type_knee_surgery_content {
+    position: absolute;
+    bottom: min(1.04167vw, 1.25rem);
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 2;
+    width: 100%;
+    max-width: 50%;
+  }
+
+  .type_knee_surgery_section .type_knee_surgery_col .type_knee_surgery_content .fs-20 {
+    color: var(--theme-white);
+    text-align: center;
+    font-weight: 700;
+  }
+
+  .type_knee_surgery_section .type_knee_surgery_inr .type_knee_surgery_slider {
+    padding-bottom: min(2.60417vw, 3.125rem);
+  }
+
+  .type_knee_surgery_section .type_knee_surgery_inr .swiper-pagination {
+    position: absolute;
+    bottom: min(0.52083vw, 0.625rem);
+  }
+
+  .type_knee_surgery_section .type_knee_surgery_inr .swiper-pagination .swiper-pagination-bullet-active {
+    background: var(--theme-primary);
+  }
+
+  .type_knee_surgery_section .type_knee_surgery_inr .swiper-pagination .swiper-pagination-bullet {
+    background: #00000080;
+  }
+
+  @media only screen and (max-width: 1199px) {
+    .type_knee_surgery_section .type_knee_surgery_inr {
+      margin-top: 25px;
+    }
+
+    .type_knee_surgery_section .type_knee_surgery_col .type_knee_surgery_content {
+      bottom: 20px;
+    }
+
+    .type_knee_surgery_section .type_knee_surgery_inr .swiper-pagination {
+      bottom: -4px;
+    }
+
+    .type_knee_surgery_section .type_knee_surgery_inr .swiper-pagination .swiper-pagination-bullet {
+      width: 10px;
+      height: 10px;
+    }
+
+    .type_knee_surgery_section .type_knee_surgery_inr .type_knee_surgery_slider {
+      padding-bottom: min(3.60417vw, 3.125rem);
+    }
+  }
+
+  @media only screen and (max-width: 991px) {
+    .type_knee_surgery_section {
+      padding-top: 45px;
+    }
+
+    .type_knee_surgery_section .type_knee_surgery_inr {
+      margin-top: 30px;
+    }
+
+    .type_knee_surgery_section .type_knee_surgery_col,
+    .type_knee_surgery_section .type_knee_surgery_img,
+    .type_knee_surgery_section .type_knee_surgery_img img {
+      border-radius: 15px;
+      -webkit-border-radius: 15px;
+      -moz-border-radius: 15px;
+      -ms-border-radius: 15px;
+      -o-border-radius: 15px;
+    }
+
+    .type_knee_surgery_section .type_knee_surgery_col .type_knee_surgery_content .fs-20 {
+      font-size: 18px;
+    }
+
+    .type_knee_surgery_section .type_knee_surgery_inr .type_knee_surgery_slider {
+      padding-bottom: 40px;
+    }
+  }
+
+  @media only screen and (max-width: 767px) {
+
+    .type_knee_surgery_section .type_knee_surgery_col .type_knee_surgery_content .fs-20 {
+      font-size: 20px;
+    }
+
+    .type_knee_surgery_section .type_knee_surgery_inr .type_knee_surgery_slider {
+      padding-bottom: 30px;
+    }
+  }
+
+  /* Types of Knee Replacement Surgery in Mumbai section end */
+
+  /* Carepal Secure Health Insurance Replacement Surgery Mumbai section start */
+
+  .carepal_insurance_plans_section {
+    width: 100%;
+    position: relative;
+    padding-top: min(7.8125vw, 9.375rem);
+  }
+
+  .carepal_insurance_plans_section .heading_main .fs-40 {
+    width: 100%;
+    max-width: 50%;
+    margin: auto;
+  }
+
+  .carepal_insurance_plans_section .carepal_insurance_plans_inner {
+    margin-top: min(2.1875vw, 2.625rem);
+    width: 100%;
+  }
+
+  .carepal_insurance_plans_section .carepal_insurance_plans_inner table {
+    width: 100%;
+    border-collapse: collapse;
+    overflow: hidden;
+    background: var(--theme-white);
+    box-shadow: 0 4px 25px 0 #0000001a;
+    border-radius: 1.04167vw;
+    -webkit-border-radius: 1.04167vw;
+    -moz-border-radius: 1.04167vw;
+    -ms-border-radius: 1.04167vw;
+    -o-border-radius: 1.04167vw;
+  }
+
+  .carepal_insurance_plans_section .carepal_insurance_plans_inner table .carepal-header-row {
+    background-color: var(--theme-primary);
+    border: 0;
+    overflow: hidden;
+    border-radius: 1.04167vw 1.04167vw 0px 0px;
+    -webkit-border-radius: 1.04167vw 1.04167vw 0px 0px;
+    -moz-border-radius: 1.04167vw 1.04167vw 0px 0px;
+    -ms-border-radius: 1.04167vw 1.04167vw 0px 0px;
+    -o-border-radius: 1.04167vw 1.04167vw 0px 0px;
+  }
+
+  .carepal_insurance_plans_section .carepal_insurance_plans_inner table .carepal-header-row th:first-child {
+    width: 34%;
+  }
+
+  .carepal_insurance_plans_section .carepal_insurance_plans_inner table tr th,
+  .carepal_insurance_plans_section .carepal_insurance_plans_inner table tr td {
+    border: 1px solid #d9d9d980;
+    width: 22%;
+  }
+
+  .carepal_insurance_plans_section .carepal_insurance_plans_inner table .carepal-header-row th {
+    padding: min(1.82292vw, 2.1875rem) min(0.52083vw, 0.625rem);
+
+  }
+
+  .carepal_insurance_plans_section .carepal_insurance_plans_inner table .carepal-header-row th .fs-24 {
+    color: var(--theme-white);
+    font-weight: 700;
+  }
+
+  .carepal_insurance_plans_section .carepal_insurance_plans_inner table .carepal-header-row th .fs-20>* {
+    color: var(--theme-white);
+    font-weight: 400;
+  }
+
+  .carepal_insurance_plans_section .carepal_insurance_plans_inner table .carepal-header-row th .get_quote_inr {
+    display: inline-flex;
+    padding: min(0.625vw, 0.75rem) min(1.875vw, 2.25rem);
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    background: var(--theme-white);
+    margin-top: min(0.625vw, 0.75rem);
+    border-radius: 3.125vw;
+    -webkit-border-radius: 3.125vw;
+    -moz-border-radius: 3.125vw;
+    -ms-border-radius: 3.125vw;
+    -o-border-radius: 3.125vw;
+  }
+
+  .carepal_insurance_plans_section .carepal_insurance_plans_inner table .carepal-header-col td {
+    color: var(--theme-content);
+    font-weight: 700;
+    padding: min(1.66667vw, 2rem) min(4.16667vw, 5rem);
+  }
+
+  .carepal_insurance_plans_section .carepal_insurance_plans_inner table .carepal-tick {
+    width: min(1.71875vw, 2.0625rem);
+    height: min(1.71875vw, 2.0625rem);
+    margin: auto;
+  }
+
+  .carepal_insurance_plans_section .carepal_insurance_plans_inner table .carepal-tick img {
+    width: 100%;
+    height: 100%;
+  }
+
+  @media only screen and (max-width: 1199px) {
+    .carepal_insurance_plans_section .carepal_insurance_plans_inner {
+      margin-top: 26px;
+    }
+
+    .carepal_insurance_plans_section .carepal_insurance_plans_inner table .carepal-tick {
+      width: 22px;
+      height: 22px;
+    }
+
+    .carepal_insurance_plans_section .carepal_insurance_plans_inner table .carepal-header-col td {
+      font-weight: 700;
+      padding: 20px 45px;
+    }
+  }
+
+  @media only screen and (max-width: 991px) {
+    .carepal_insurance_plans_section .heading_main .fs-40 {
+      max-width: 80%;
+    }
+
+    .carepal_insurance_plans_section {
+      padding-top: min(8.8125vw, 9.375rem);
+    }
+
+    .carepal_insurance_plans_section .carepal_insurance_plans_inner {
+      margin-top: 30px;
+    }
+
+    .carepal_insurance_plans_section .carepal_insurance_plans_inner table .carepal-header-row th {
+      padding: 10px;
+    }
+
+  }
+
+  @media only screen and (max-width: 767px) {
+    .carepal_insurance_plans_section {
+      padding-top: 45px;
+    }
+
+    .carepal_insurance_plans_section .heading_main .fs-40 {
+      max-width: 100%;
+    }
+
+    .carepal_insurance_plans_section .carepal_insurance_plans_inner table .carepal-header-row th {
+      padding: 15px;
+    }
+
+    .carepal_insurance_plans_section .carepal_insurance_plans_inner table .carepal-header-col td {
+      padding-left: 25px;
+    }
+
+    .carepal_insurance_plans_table {
+      width: 100%;
+      white-space: nowrap;
+      overflow-x: scroll;
+    }
+  }
+
+  /* Carepal Secure Health Insurance Replacement Surgery Mumbai section end */
+
+  /* Knee Replacement: What's Included Excluded Cost section start  */
+
+  .what_excluded_cost_section {
+    width: 100%;
+    position: relative;
+    padding-top: min(7.29167vw, 8.75rem);
+    padding-bottom: min(2.08333vw, 2.5rem);
+  }
+
+  .what_excluded_cost_section .heading_main .fs-40 {
+    text-align: left;
+  }
+
+  .what_excluded_cost_inner {
+    padding-left: 5.20833vw;
+    width: 100%;
+    padding-top: min(2.60417vw, 3.125rem);
+  }
+
+  .what_excluded_cost_inner .what_excluded_cost_row {
+    justify-content: start;
+    align-items: center;
+    gap: 5px;
+  }
+
+  .what_excluded_cost_inner .what_excluded_cost_row .what_excluded_cost_left {
+    width: 100%;
+    max-width: min(54.84375vw, 65.8125rem);
+  }
+
+  .what_excluded_cost_inner .what_excluded_cost_row .what_excluded_cost_right {
+    width: 100%;
+    max-width: min(37.23958vw, 44.6875rem);
+  }
+
+  .what_excluded_cost_inner .what_excluded_cost_row .what_excluded_cost_right img {
+    width: 100%;
+  }
+
+  .what_excluded_cost_inner .what_excluded_cost_left .what_excluded_cost_table {
+    width: 100%;
+  }
+
+  .what_excluded_cost_inner .what_excluded_cost_table table {
+    width: 100%;
+    background: var(--theme-white);
+    box-shadow: 0 4px 25px 0 #0000001a;
+    overflow: hidden;
+    border-radius: 1.04167vw;
+    -webkit-border-radius: 1.04167vw;
+    -moz-border-radius: 1.04167vw;
+    -ms-border-radius: 1.04167vw;
+    -o-border-radius: 1.04167vw;
+  }
+
+  .what_excluded_cost_inner .what_excluded_cost_table table .what_excluded_cost_table_head {
+    background-color: var(--theme-secondary);
+    border-radius: 1.04167vw 1.04167vw 0px 0px;
+    border: 0;
+    -webkit-border-radius: 1.04167vw 1.04167vw 0px 0px;
+    -moz-border-radius: 1.04167vw 1.04167vw 0px 0px;
+    -ms-border-radius: 1.04167vw 1.04167vw 0px 0px;
+    -o-border-radius: 1.04167vw 1.04167vw 0px 0px;
+  }
+
+  .what_excluded_cost_inner .what_excluded_cost_table table .what_excluded_cost_table_head th {
+    padding: min(1.14583vw, 1.375rem);
+    color: var(--theme-white);
+    font-weight: 700;
+  }
+
+  .what_excluded_cost_inner .what_excluded_cost_table table tr th:first-child,
+  .what_excluded_cost_inner .what_excluded_cost_table table tr td:first-child {
+    padding-left: min(2.60417vw, 3.125rem);
+    text-align: left;
+  }
+
+  .what_excluded_cost_inner .what_excluded_cost_table table tr th,
+  .what_excluded_cost_inner .what_excluded_cost_table table tr td {
+    text-align: center;
+    width: 33.3%;
+    border-right: 1px solid #d9d9d980;
+  }
+
+  .what_excluded_cost_inner .what_excluded_cost_table table tr td {
+    color: var(--theme-content);
+    text-align: center;
+    font-weight: 400;
+    /* padding: 22px 48px 20px; */
+    padding: min(1.14583vw, 1.375rem) min(2.5vw, 3rem) min(1.04167vw, 1.25rem);
+  }
+
+  .what_excluded_cost_inner .what_excluded_cost_table table .bg-white {
+    background: var(--theme-white);
+  }
+
+  .what_excluded_cost_inner .what_excluded_cost_table table .bg-gray {
+    background: #F5F5F5;
+  }
+
+  .what_excluded_cost_inner .what_excluded_cost_table table tr td span {
+    font-weight: 500;
+  }
+
+  @media only screen and (max-width: 1199px) {
+
+    .what_excluded_cost_inner {
+      padding-left: 1.875rem;
+      padding-top: 30px;
+    }
+
+    .what_excluded_cost_inner .what_excluded_cost_row {
+      flex-wrap: wrap;
+      row-gap: 30px;
+    }
+
+    .what_excluded_cost_inner .what_excluded_cost_row .what_excluded_cost_left,
+    .what_excluded_cost_inner .what_excluded_cost_row .what_excluded_cost_right {
+      width: 100%;
+      max-width: 100%;
+    }
+
+    .what_excluded_cost_inner .what_excluded_cost_img {
+      width: 100%;
+      max-width: 60%;
+
+    }
+
+    .what_excluded_cost_inner .what_excluded_cost_table table tr th:first-child,
+    .what_excluded_cost_inner .what_excluded_cost_table table tr td:first-child {
+      padding-left: 40px;
+    }
+
+    .what_excluded_cost_inner .what_excluded_cost_table table .what_excluded_cost_table_head th {
+      padding: 20px;
+    }
+
+    .what_excluded_cost_inner .what_excluded_cost_table table tr td {
+      padding: 16px;
+    }
+  }
+
+  @media only screen and (max-width: 991px) {
+
+    .what_excluded_cost_inner .what_excluded_cost_img {
+      width: 100%;
+      max-width: 80%;
+      margin: auto;
+    }
+
+    .what_excluded_cost_inner {
+      padding-right: 1.875rem;
+    }
+
+  }
+
+  @media only screen and (max-width: 767px) {
+    .what_excluded_cost_inner {
+      padding-left: 1.25rem;
+    }
+
+    .what_excluded_cost_table {
+      width: 100%;
+      white-space: nowrap;
+      overflow-x: scroll;
+    }
+
+    .what_excluded_cost_section {
+      padding-top: 40px;
+      padding-bottom: 30px;
+    }
+
+    .what_excluded_cost_inner .what_excluded_cost_table table tr th:first-child,
+    .what_excluded_cost_inner .what_excluded_cost_table table tr td:first-child {
+      padding-left: 20px;
+    }
+
+    .what_excluded_cost_inner .what_excluded_cost_table table tr td {
+      padding: 18px;
+    }
+
+    .what_excluded_cost_inner .what_excluded_cost_img {
+      max-width: 100%;
+    }
+  }
+
+  /* Knee Replacement: What's Included Excluded Cost section end  */
+
+  /* Partner Hospitals Cashless Replacement Surgery Mumbai section start  */
+
+  .surgery_coverage_section {
+    width: 100%;
+    position: relative;
+    padding-top: min(5.20833vw, 6.25rem);
+  }
+
+  .surgery_coverage_section .heading_main .fs-40 {
+    width: 100%;
+    max-width: 999px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: min(1.875vw, 2.25rem);
+  }
+
+  .surgery_coverage_section .heading_main .content_wrap {
+    width: 100%;
+    max-width: 83%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+  }
+
+  .surgery_coverage_section .heading_main .content_wrap>* {
+    color: var(--theme-content);
+    font-weight: 400;
+  }
+
+  .surgery_coverage_section .content_wrap span {
+    font-weight: 600;
+  }
+
+  .surgery_coverage_inner {
+    margin-top: min(2.60417vw, 3.125rem);
+  }
+
+  .surgery_coverage_img {
+    width: 100%;
+    max-width: min(40.57292vw, 48.6875rem);
+  }
+
+  .surgery_coverage_img img {
+    width: 100%;
+  }
+
+  .surgery_coverage_cnt {
+    width: 100%;
+    max-width: min(37.39583vw, 44.875rem);
+    margin-left: auto;
+  }
+
+  .surgery_coverage_cnt .sub_heading .fs-28 {
+    text-align: left;
+  }
+
+  .surgery_coverage_cnt .sub_heading {
+    width: 100%;
+    max-width: min(35.36458vw, 42.4375rem);
+    margin-bottom: min(0.67708vw, 0.8125rem);
+  }
+
+  .surgery_coverage_or {
+    font-weight: 700;
+    color: var(--theme-light-content);
+    text-transform: uppercase;
+    text-align: center;
+    padding: min(0.72917vw, 0.875rem) 0px;
+  }
+
+  .surgery_coverage_btn .primary_btn {
+    margin-bottom: min(0.9375vw, 1.125rem);
+    width: 100%;
+    justify-content: center;
+    padding: min(0.9375vw, 1.125rem);
+  }
+
+  .surgery_coverage_section .content_wrap.fs-18 p {
+    font-weight: 300;
+  }
+
+  .ft_form_inner {
+    margin-top: min(1.30208vw, 1.5625rem);
+    width: 100%;
+    display: flex;
+    height: min(3.38542vw, 4.0625rem);
+    align-items: center;
+    border: 1px solid var(--theme-light-content);
+    background: var(--theme-white);
+    position: relative;
+    border-radius: 2.60417vw;
+    -webkit-border-radius: 2.60417vw;
+    -moz-border-radius: 2.60417vw;
+    -ms-border-radius: 2.60417vw;
+    -o-border-radius: 2.60417vw;
+  }
+
+  .ft_form_inner input {
+    width: 88%;
+    background: none;
+    border: none;
+    outline: none;
+    height: 100%;
+    padding-left: min(1.5625vw, 1.875rem);
+    color: #57585ab3;
+    font-size: min(0.9375vw, 1.125rem);
+    font-weight: 400;
+    border-radius: 2.60417vw;
+    -webkit-border-radius: 2.60417vw;
+    -moz-border-radius: 2.60417vw;
+    -ms-border-radius: 2.60417vw;
+    -o-border-radius: 2.60417vw;
+  }
+
+  .ft_form_inner .form_btn_ft {
+    width: min(3.125vw, 3.75rem);
+    height: min(3.125vw, 3.75rem);
+    padding: 0;
+    margin: 0;
+    outline: none;
+    border: none;
+    position: absolute;
+    right: 4px;
+    border-radius: 50%;
+    background: var(--theme-second-gradient);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+  }
+
+  .ft_form_inner .form_btn_ft .primary_btn {
+    all: unset;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+  }
+
+  .ft_form_inner .form_btn_ft .primary_btn::before {
+    display: none;
+  }
+
+  .ft_form_inner .primary_btn svg {
+    width: min(1.25vw, 1.5rem);
+    height: min(1.25vw, 1.5rem);
+  }
+
+  .ft_form_inner .primary_btn svg path {
+    stroke: var(--theme-white);
+  }
+
+  @media only screen and (max-width: 1199px) {
+    .surgery_coverage_img {
+      max-width: min(44.57292vw, 48.6875rem);
+    }
+
+    .surgery_coverage_inner {
+      margin-top: 32px;
+    }
+
+    .ft_form_inner {
+      height: 40px;
+    }
+
+    .ft_form_inner input {
+      font-size: 14px;
+    }
+
+    .recovery_post_section .recovery_post_col:hover .recovery_post_content .fs-20 {
+      height: 200px;
+      overflow-y: scroll;
+    }
+
+    .recovery_post_section .recovery_post_col:hover .recovery_post_content .fs-20::-webkit-scrollbar {
+      width: 6px;
+    }
+
+    .recovery_post_section .recovery_post_col:hover .recovery_post_content .fs-20::-webkit-scrollbar-track {
+      background: var(--theme-white);
+      border-radius: 10px;
+    }
+
+    .recovery_post_section .recovery_post_col:hover .recovery_post_content .fs-20::-webkit-scrollbar-thumb {
+      background: var(--theme-secondary);
+      border-radius: 10px;
+    }
+
+  }
+
+  @media only screen and (max-width: 991px) {
+    .surgery_coverage_section .heading_main .content_wrap {
+      max-width: 100%;
+    }
+
+    .surgery_coverage_img {
+      max-width: 80%;
+      margin: auto;
+    }
+
+    .surgery_coverage_cnt {
+      max-width: 100%;
+      margin-top: 30px;
+    }
+
+    .surgery_coverage_cnt .sub_heading {
+      width: 100%;
+      max-width: 100%;
+      margin-bottom: 12px;
+    }
+
+    .ft_form_inner {
+      height: 55px;
+      border-radius: 30px;
+      overflow: hidden;
+    }
+
+    .ft_form_inner input {
+      font-size: 16px;
+      padding-left: 25px;
+    }
+
+    .ft_form_inner .form_btn_ft {
+      width: 50px;
+      height: 50px;
+    }
+
+    .ft_form_inner .primary_btn svg {
+      width: 20px;
+      height: 20px;
+    }
+
+    .ft_form_inner {
+      height: 55px;
+      border-radius: 30px;
+      overflow: hidden;
+      max-width: 75%;
+      margin: auto;
+    }
+
+    .surgery_coverage_or {
+      padding: 15px;
+      max-width: 75%;
+      margin: auto;
+    }
+
+    .surgery_coverage_btn .primary_btn {
+      margin-bottom: 20px;
+      padding: 15px;
+      font-size: 16px;
+      max-width: 75%;
+    }
+
+    .surgery_coverage_btn {
+      text-align: center;
+    }
+
+    .surgery_input {
+      margin-top: 30px;
+    }
+  }
+
+  @media only screen and (max-width: 767px) {
+    .surgery_coverage_section .heading_main .fs-40 {
+      width: 100%;
+      max-width: 100%;
+      margin-bottom: 15px;
+    }
+
+    .surgery_coverage_img {
+      max-width: 100%;
+      margin: auto;
+    }
+
+    .ft_form_inner {
+      max-width: 100%;
+    }
+
+    .surgery_coverage_or {
+      max-width: 100%;
+    }
+
+    .surgery_coverage_btn .primary_btn {
+      max-width: 100%;
+    }
+
+    .ft_form_inner .form_btn_ft {
+      right: 1px;
+    }
+  }
+
+  /* Partner Hospitals Cashless Replacement Surgery Mumbai section end  */
+
+  /* Recovery & Post-Surgery Care section start  */
+
+  .recovery_post_section {
+    position: relative;
+    width: 100%;
+    padding-top: min(5.20833vw, 6.25rem);
+  }
+
+  .recovery_post_section .heading_main .fs-40 {
+    text-align: left;
+  }
+
+  .recovery_post_section .recovery_post_inr {
+    margin-top: min(3.125vw, 3.75rem);
+    width: 100%;
+    position: relative;
+  }
+
+  .recovery_post_section .recovery_post_col {
+    box-shadow: 0 4px 20px 0 rgba(0, 0, 0, 0.15);
+  }
+
+  .recovery_post_section .recovery_post_col,
+  .recovery_post_section .recovery_post_img,
+  .recovery_post_section .recovery_post_img img {
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+    border-radius: 0.52083vw;
+    -webkit-border-radius: 0.52083vw;
+    -moz-border-radius: 0.52083vw;
+    -ms-border-radius: 0.52083vw;
+    -o-border-radius: 0.52083vw;
+  }
+
+  .recovery_post_section .recovery_post_img::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    background: var(--theme-gradient);
+    z-index: 1;
+  }
+
+  .recovery_post_section .recovery_post_col .recovery_post_content {
+    position: absolute;
+    bottom: min(2.60417vw, 3.125rem);
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 2;
+    width: 100%;
+    max-width: 70%;
+  }
+
+  .recovery_post_section .recovery_post_col .recovery_post_content .fs-24 {
+    color: var(--theme-white);
+    text-align: center;
+    font-weight: 700;
+  }
+
+  .recovery_post_section .recovery_post_inr .recovery_post_slider {
+    padding-bottom: min(2.60417vw, 3.125rem);
+  }
+
+  .recovery_post_section .recovery_post_inr .swiper-pagination {
+    position: absolute;
+    bottom: min(0.52083vw, 0.625rem);
+  }
+
+  .recovery_post_section .recovery_post_inr .swiper-pagination .swiper-pagination-bullet-active {
+    background: var(--theme-primary);
+  }
+
+  .recovery_post_section .recovery_post_inr .swiper-pagination .swiper-pagination-bullet {
+    background: #00000080;
+  }
+
+  .recovery_post_section .recovery_post_col .recovery_post_content .fs-20 {
+    color: var(--theme-white);
+    text-align: center;
+    font-weight: 400;
+    line-height: 1.6;
+    display: none;
+  }
+
+  .recovery_post_section .recovery_post_col .recovery_post_content {
+    position: absolute;
+    bottom: min(2.60417vw, 3.125rem);
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 2;
+    width: 100%;
+    max-width: 90%;
+  }
+
+  .recovery_post_section .recovery_post_col:hover .recovery_post_content .fs-20 {
+    display: block;
+    margin-top: min(1.30208vw, 1.5625rem);
+  }
+
+  .recovery_post_section .recovery_post_col:hover .recovery_post_content {
+    top: 50%;
+    transform: translate(-50%, -50%);
+    bottom: inherit;
+    transition: all 1s ease-in-out;
+    -webkit-transition: all 1s ease-in-out;
+    -moz-transition: all 1s ease-in-out;
+    -ms-transition: all 1s ease-in-out;
+    -o-transition: all 1s ease-in-out;
+  }
+
+  .recovery_post_section .recovery_post_col:hover .recovery_post_img::before {
+    opacity: 0.78;
+    background: var(--theme-primary);
+    transition: all 1s ease-in-out;
+    -webkit-transition: all .3s ease-in-out;
+    -moz-transition: all .3s ease-in-out;
+    -ms-transition: all .3s ease-in-out;
+    -o-transition: all .3s ease-in-out;
+  }
+
+  @media only screen and (max-width: 991px) {
+    .recovery_post_section {
+      padding-top: 45px;
+    }
+
+    .recovery_post_section .recovery_post_inr {
+      margin-top: 30px;
+    }
+
+    .recovery_post_section .recovery_post_col,
+    .recovery_post_section .recovery_post_img,
+    .recovery_post_section .recovery_post_img img {
+      border-radius: 15px;
+      -webkit-border-radius: 15px;
+      -moz-border-radius: 15px;
+      -ms-border-radius: 15px;
+      -o-border-radius: 15px;
+    }
+
+    .recovery_post_section .recovery_post_col {
+      box-shadow: 0 4px 12px 0 rgba(0, 0, 0, 0.15);
+    }
+
+    .recovery_post_section .recovery_post_inr .recovery_post_slider {
+      padding-bottom: 45px;
+    }
+
+    .recovery_post_section .recovery_post_inr .swiper-pagination .swiper-pagination-bullet {
+      width: 10px;
+      height: 10px;
+    }
+
+    .recovery_post_section .recovery_post_col .recovery_post_content .fs-24 {
+      font-size: 18px;
+    }
+
+    .recovery_post_section .recovery_post_col .recovery_post_content {
+      position: absolute;
+      bottom: 25px;
+    }
+  }
+
+  @media only screen and (max-width: 767px) {
+
+    .recovery_post_section .recovery_post_inr .recovery_post_slider {
+      padding-bottom: 40px;
+    }
+  }
+
+  /* Recovery & Post-Surgery Care section end  */
+
+  /* Insurance & EMI CSS Start */
+
+  .insurance_emi_section {
+    width: 100%;
+    position: relative;
+    padding-top: min(2.604vw, 3.125rem);
+    padding-bottom: min(2.604vw, 3.125rem);
+  }
+
+  .insurance_emi_left_img {
+    width: 100%;
+    max-width: min(34.635vw, 41.5625rem);
+  }
+
+  .insurance_emi_left_img img {
+    width: 100%;
+  }
+
+  .insurance_emi_right_cnt .heading_main .fs-40 {
+    text-align: left;
+  }
+
+  .insurance_emi_right_cnt .heading_main {
+    margin-bottom: min(1.458vw, 1.75rem);
+  }
+
+  .insurance_emi_right_cnt .content_wrap p+p {
+    padding-top: min(1.823vw, 2.1875rem);
+  }
+
+  .insurance_emi_right_cnt {
+    width: 100%;
+    max-width: min(48.021vw, 57.625rem);
+    margin: auto;
+  }
+
+  .insurance_emi_right_cnt .content_wrap {
+    width: 100%;
+    max-width: min(47.917vw, 57.5rem);
+  }
+
+  .insurance_emi_btn .primary_btn {
+    margin-top: min(3.125vw, 3.75rem);
+  }
+
+  @media only screen and (max-width: 1199px) {
+    .insurance_emi_left_img {
+      max-width: min(38.635vw, 41.5625rem);
+    }
+  }
+
+  @media only screen and (max-width: 991px) {
+    .insurance_emi_section {
+      padding-top: 25px;
+      padding-bottom: 25px;
+    }
+
+    .insurance_emi_left_img {
+      max-width: 65%;
+      margin: auto;
+    }
+
+    .insurance_emi_right_cnt {
+      max-width: 100%;
+      margin-top: 35px;
+    }
+
+    .insurance_emi_right_cnt .content_wrap {
+      max-width: 100%;
+    }
+  }
+
+  @media only screen and (max-width: 767px) {
+    .insurance_emi_left_img {
+      max-width: 100%;
+    }
+
+    .insurance_emi_btn .primary_btn {
+      margin-top: 25px;
+    }
+  }
+
+
+  /* Insurance & EMI CSS End */
+
+  /* Factors Affecting Knee Replacement  Surgery Cost section start */
+
+  .factors_affecting_knee_section {
+    position: relative;
+    width: 100%;
+    padding-top: min(5.20833vw, 6.25rem);
+    padding-bottom: min(5rem, 5rem);
+  }
+
+  .factors_affecting_knee_section .sub_heading .fs-28 {
+    text-align: left;
+  }
+
+  .factors_affecting_knee_section .factors_affecting_knee_inr {
+    margin-top: min(2.08333vw, 2.5rem);
+  }
+
+  .factors_affecting_knee_section .factors_affecting_knee_inr .factors_affecting_knee_col {
+    background: var(--theme-white);
+    box-shadow: 0 4px 20px 0 #0000000d;
+    padding: min(2.34375vw, 2.8125rem) min(2.60417vw, 3.125rem);
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+  }
+
+  .factors_affecting_knee_section .factors_affecting_knee_col .factor_affecting_knee_img {
+    width: min(6.19792vw, 7.4375rem);
+    height: min(6.19792vw, 7.4375rem);
+    border-radius: 100%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    overflow: hidden;
+    padding: min(1.30208vw, 1.5625rem);
+  }
+
+  .factors_affecting_knee_section .factors_affecting_knee_col .factor_affecting_knee_img::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0.24;
+    background: linear-gradient(180deg, #F5F5F5 0%, #51BBE9 100%);
+    z-index: 0;
+  }
+
+  .factors_affecting_knee_section .factors_affecting_knee_col .factor_affecting_knee_img img {
+    width: 100%;
+    z-index: 1;
+  }
+
+  .factors_affecting_knee_section .factor_affecting_knee_content {
+    margin-top: min(1.5625vw, 1.875rem);
+  }
+
+  .factors_affecting_knee_section .factor_affecting_knee_content .fs-20 {
+    color: var(--theme-content);
+    text-align: center;
+    font-weight: 700;
+  }
+
+  .factors_affecting_knee_section .factor_affecting_knee_content .fs-18 {
+    color: var(--theme-content);
+    text-align: center;
+    font-weight: 400;
+    padding-top: min(0.52083vw, 0.625rem);
+  }
+
+  .factors_affecting_knee_section .factors_affecting_knee_inr .swiper-pagination {
+    position: absolute;
+    bottom: min(0.52083vw, 0.625rem);
+  }
+
+  .factors_affecting_knee_section .factors_affecting_knee_inr .swiper-pagination .swiper-pagination-bullet-active {
+    background: var(--theme-primary);
+  }
+
+  .factors_affecting_knee_section .factors_affecting_knee_inr .swiper-pagination .swiper-pagination-bullet {
+    background: #00000080;
+  }
+
+  .factors_affecting_knee_section .factors_affecting_knee_inr .factors_affecting_knee_slider {
+    padding-bottom: min(2.60417vw, 3.125rem);
+  }
+
+  @media only screen and (max-width: 1199px) {
+    .factors_affecting_knee_section .factors_affecting_knee_inr {
+      margin-top: 30px;
+    }
+
+    .factors_affecting_knee_section {
+      padding-top: min(6.20833vw, 6.25rem);
+      padding-bottom: min(6rem, 7rem);
+    }
+
+    .factors_affecting_knee_section .factors_affecting_knee_inr .swiper-pagination {
+      position: absolute;
+      bottom: 0px;
+    }
+
+    .factors_affecting_knee_section .factors_affecting_knee_inr .swiper-pagination .swiper-pagination-bullet {
+      width: 10px;
+      height: 10px;
+    }
+
+    .factors_affecting_knee_section .factors_affecting_knee_inr .factors_affecting_knee_slider {
+      padding-bottom: min(3.60417vw, 3.125rem);
+    }
+
+    .factors_affecting_knee_section .factor_affecting_knee_content .fs-20 {
+      font-size: 18px;
+    }
+
+    .factors_affecting_knee_section .factor_affecting_knee_content {
+      margin-top: 18px;
+    }
+
+  }
+
+  @media only screen and (max-width: 991px) {
+    .factors_affecting_knee_section .factors_affecting_knee_col .factor_affecting_knee_img {
+      width: 80px;
+      height: 80px;
+      padding: 18px;
+    }
+
+    .factors_affecting_knee_section .factors_affecting_knee_inr .factors_affecting_knee_col {
+      padding: 25px;
+    }
+
+    .factors_affecting_knee_section .factor_affecting_knee_content {
+      margin-top: 20px;
+    }
+
+    .factors_affecting_knee_section .factor_affecting_knee_content .fs-18 {
+      padding-top: 12px;
+    }
+
+    .factors_affecting_knee_section .factors_affecting_knee_inr .factors_affecting_knee_slider {
+      padding-bottom: 40px;
+    }
+  }
+
+  @media only screen and (max-width: 767px) {
+    .factors_affecting_knee_section {
+      padding-top: 40px;
+      padding-bottom: 45px;
+    }
+
+    .factors_affecting_knee_section .factors_affecting_knee_col .factor_affecting_knee_img {
+      width: 100px;
+      height: 100px;
+      padding: 22px;
+    }
+
+    .factors_affecting_knee_section .factor_affecting_knee_content .fs-20 {
+      font-size: 20px;
+    }
+
+    .factors_affecting_knee_section .factors_affecting_knee_inr .factors_affecting_knee_col {
+      padding: 30px 25px;
+    }
+  }
+
+  /* Factors Affecting Knee Replacement  Surgery Cost section end */
+
+  /* Cost Knee surgery in costs ₹3–5 Lakh section start */
+
+  .cost_knee_surgery_section {
+    position: relative;
+    width: 100%;
+    padding-top: min(5.20833vw, 6.25rem);
+    margin-top: -14.5%;
+  }
+
+  .cost_knee_surgery_section .cost_knee_surgery_inr {
+    background: var(--theme-sub-heading);
+    padding: min(3.125vw, 3.75rem) 0px min(3.125vw, 3.75rem) min(6.25vw, 7.5rem);
+    border-radius: 1.04167vw;
+    -webkit-border-radius: 1.04167vw;
+    -moz-border-radius: 1.04167vw;
+    -ms-border-radius: 1.04167vw;
+    -o-border-radius: 1.04167vw;
+  }
+
+  .cost_knee_surgery_section .cost_knee_surgery_left .fs-28,
+  .cost_knee_surgery_section .cost_knee_surgery_left .fs-28>* {
+    color: var(--theme-white);
+    font-weight: 400;
+    line-height: 1.23;
+  }
+
+  .cost_knee_surgery_section .cost_knee_surgery_left .fs-40,
+  .cost_knee_surgery_section .cost_knee_surgery_left span {
+    font-weight: 600;
+  }
+
+  .cost_knee_surgery_section .cost_knee_surgery_inr .cost_knee_surgery_left {
+    width: 100%;
+    max-width: min(36.92708vw, 44.3125rem);
+  }
+
+  .cost_knee_surgery_section .cost_knee_surgery_left .cost_knee_surgery_btn {
+    margin-top: min(1.5625vw, 1.875rem);
+  }
+
+  .cost_knee_surgery_section .cost_knee_surgery_inr .cost_knee_surgery_right {
+    position: relative;
+  }
+
+  .cost_knee_surgery_section .cost_knee_surgery_inr .cost_knee_surgery_img {
+    position: absolute;
+    top: -206px;
+    width: min(37.70833vw, 45.25rem);
+    right: min(3.125vw, 3.75rem);
+  }
+
+  .cost_knee_surgery_section .cost_knee_surgery_inr .cost_knee_surgery_img img {
+    width: 100%;
+  }
+
+  @media only screen and (max-width: 1440px) {
+    .cost_knee_surgery_section .cost_knee_surgery_inr .cost_knee_surgery_img {
+      top: -153px;
+    }
+
+    .cost_knee_surgery_section {
+      padding-top: min(4.20833vw, 6.25rem);
+    }
+  }
+
+  @media only screen and (max-width: 1366px) {
+    .cost_knee_surgery_section .cost_knee_surgery_inr .cost_knee_surgery_img {
+      top: -145px;
+    }
+  }
+
+  @media only screen and (max-width: 1280px) {
+    .cost_knee_surgery_section .cost_knee_surgery_inr .cost_knee_surgery_img {
+      top: -134px;
+    }
+
+    .cost_knee_surgery_section {
+      padding-top: min(3.20833vw, 6.25rem);
+    }
+  }
+
+  @media only screen and (max-width: 1199px) {
+
+    .cost_knee_surgery_section .cost_knee_surgery_inr {
+      padding: min(4.125vw, 3.75rem) 0px min(4.125vw, 3.75rem) min(6.25vw, 7.5rem);
+      border-radius: 15px;
+      -webkit-border-radius: 15px;
+      -moz-border-radius: 15px;
+      -ms-border-radius: 15px;
+      -o-border-radius: 15px;
+    }
+
+    .cost_knee_surgery_section .cost_knee_surgery_left .cost_knee_surgery_btn {
+      margin-top: 20px;
+    }
+
+    .cost_knee_surgery_section .cost_knee_surgery_inr .cost_knee_surgery_img {
+      width: min(38.70833vw, 45.25rem);
+      top: -85px;
+    }
+
+    .gray_bg_gradient {
+      padding-bottom: min(8.47917vw, 17.375rem);
+    }
+  }
+
+  @media only screen and (max-width: 991px) {
+    .cost_knee_surgery_section .cost_knee_surgery_inr .cost_knee_surgery_img {
+      right: 0;
+      width: 100%;
+      top: -70px;
+      height: 300px;
+    }
+
+  }
+
+  @media only screen and (max-width: 767px) {
+    .cost_knee_surgery_section {
+      padding-top: 20px;
+      margin-top: -42%;
+    }
+
+    .cost_knee_surgery_section .cost_knee_surgery_inr {
+      padding-left: 25px;
+      padding-right: 25px;
+      padding-top: 30px;
+      padding-bottom: 0px;
+    }
+
+    .cost_knee_surgery_section .cost_knee_surgery_inr .cost_knee_surgery_left {
+      max-width: 100%;
+    }
+
+    .cost_knee_surgery_section .cost_knee_surgery_inr .cost_knee_surgery_img {
+      position: relative;
+      top: inherit;
+      height: auto;
+    }
+
+    .cost_knee_surgery_section .cost_knee_surgery_inr .cost_knee_surgery_right {
+      position: relative;
+      margin-top: 35px;
+    }
+
+    .cost_knee_surgery_section .cost_knee_surgery_left .fs-28,
+    .cost_knee_surgery_section .cost_knee_surgery_left .fs-28>* {
+      line-height: 1.5;
+    }
+
+    .gray_bg_gradient {
+      padding-bottom: 150px;
+    }
+  }
+
+  /* cost Knee surgery in costs ₹3–5 Lakh section end */
+
+  /* Why Choose Carepal Replacement Surgery section start  */
+
+  .why_choose_carepal_section {
+    position: relative;
+    width: 100%;
+    padding-top: min(5.20833vw, 6.25rem);
+    padding-bottom: min(5.20833vw, 6.25rem);
+  }
+
+  .why_choose_carepal_section .heading_main {
+    max-width: 60%;
+    margin: auto;
+  }
+
+  .why_choose_carepal_section .sub_heading .fs-28 {
+    text-align: left;
+  }
+
+  .why_choose_carepal_section .why_choose_carepal_inr {
+    margin-top: min(3.125vw, 3.75rem);
+  }
+
+  .why_choose_carepal_section .why_choose_carepal_inr .why_choose_carepal_col {
+    background: var(--theme-white);
+    box-shadow: 0 4px 20px 0 #0000000d;
+    padding: min(2.34375vw, 2.8125rem) min(2.60417vw, 3.125rem);
+    border-radius: 0.52083vw;
+    -webkit-border-radius: 0.52083vw;
+    -moz-border-radius: 0.52083vw;
+    -ms-border-radius: 0.52083vw;
+    -o-border-radius: 0.52083vw;
+    height: 100%;
+
+  }
+
+  .why_choose_carepal_slider .swiper-slide {
+    height: auto;
+  }
+
+  .why_choose_carepal_section .why_choose_carepal_col .factor_affecting_knee_img {
+    width: min(6.19792vw, 7.4375rem);
+    height: min(6.19792vw, 7.4375rem);
+    border-radius: 100%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    overflow: hidden;
+    padding: min(1.30208vw, 1.5625rem);
+  }
+
+
+  .why_choose_carepal_section .why_choose_carepal_col .factor_affecting_knee_img::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0.24;
+    background: linear-gradient(180deg, #F5F5F5 0%, #51BBE9 100%);
+    z-index: 0;
+  }
+
+  .why_choose_carepal_section .why_choose_carepal_col .factor_affecting_knee_img img {
+    width: 100%;
+    z-index: 1;
+  }
+
+  .why_choose_carepal_section .factor_affecting_knee_content {
+    margin-top: min(1.5625vw, 1.875rem);
+  }
+
+  .why_choose_carepal_section .factor_affecting_knee_content .fs-20 {
+    color: var(--theme-content);
+    text-align: center;
+    font-weight: 700;
+  }
+
+  .why_choose_carepal_section .factor_affecting_knee_content .fs-18 {
+    color: var(--theme-content);
+    text-align: center;
+    font-weight: 400;
+    padding-top: min(0.52083vw, 0.625rem);
+  }
+
+  .why_choose_carepal_section .why_choose_carepal_inr .swiper-pagination {
+    position: absolute;
+    bottom: min(0.52083vw, 0.625rem);
+  }
+
+  .why_choose_carepal_section .why_choose_carepal_inr .swiper-pagination .swiper-pagination-bullet-active {
+    background: var(--theme-primary);
+  }
+
+  .why_choose_carepal_section .why_choose_carepal_inr .swiper-pagination .swiper-pagination-bullet {
+    background: #00000080;
+  }
+
+  .why_choose_carepal_section .why_choose_carepal_inr .factors_affecting_knee_slider {
+    padding-bottom: min(2.60417vw, 3.125rem);
+  }
+
+  .why_choose_carepal_section .why_choose_carepal_inr .why_choose_carepal_btn {
+    margin-top: min(2.86458vw, 3.4375rem);
+    text-align: center;
+  }
+
+  @media only screen and (max-width: 1199px) {
+    .why_choose_carepal_section .heading_main {
+      max-width: 55%;
+    }
+
+    .why_choose_carepal_section .why_choose_carepal_col .factor_affecting_knee_img {
+      width: min(7.19792vw, 7.4375rem);
+      height: min(7.19792vw, 7.4375rem);
+      padding: 16px;
+    }
+
+    .why_choose_carepal_section .factor_affecting_knee_content {
+      margin-top: 20px;
+    }
+
+    .why_choose_carepal_section .why_choose_carepal_inr .swiper-wrapper {
+      padding-bottom: 45px;
+    }
+  }
+
+  @media only screen and (max-width: 991px) {
+    .why_choose_carepal_section .heading_main {
+      max-width: 75%;
+    }
+
+    .why_choose_carepal_section .why_choose_carepal_inr {
+      margin-top: 30px;
+    }
+
+    .why_choose_carepal_section .why_choose_carepal_col .factor_affecting_knee_img {
+      width: 80px;
+      height: 80px;
+      padding: 18px;
+    }
+
+    .why_choose_carepal_section .why_choose_carepal_inr .why_choose_carepal_col {
+      padding: 25px;
+      border-radius: 12px;
+      -webkit-border-radius: 12px;
+      -moz-border-radius: 12px;
+      -ms-border-radius: 12px;
+      -o-border-radius: 12px;
+    }
+
+    .why_choose_carepal_section .factor_affecting_knee_content {
+      margin-top: 20px;
+    }
+
+    .why_choose_carepal_section .factor_affecting_knee_content .fs-18 {
+      padding-top: 12px;
+    }
+
+  }
+
+  @media only screen and (max-width: 767px) {
+    .why_choose_carepal_section {
+      padding-top: 40px;
+      padding-bottom: 45px;
+    }
+
+    .why_choose_carepal_section .heading_main {
+      max-width: 100%;
+    }
+
+    .why_choose_carepal_section .why_choose_carepal_col .factor_affecting_knee_img {
+      width: 100px;
+      height: 100px;
+      padding: 22px;
+    }
+
+    .why_choose_carepal_section .factor_affecting_knee_content .fs-20 {
+      font-size: 20px;
+    }
+
+    .why_choose_carepal_section .why_choose_carepal_inr .why_choose_carepal_col {
+      padding: 30px 25px;
+    }
+
+    .why_choose_carepal_section .factor_affecting_knee_content {
+      margin-top: 30px;
+    }
+
+    .why_choose_carepal_section .why_choose_carepal_inr .why_choose_carepal_btn {
+      margin-top: 30px;
+    }
+  }
+
+  /* Why Choose Carepal Replacement Surgery section end  */
+
+  /* table section start  */
+
+  .group-wrapper-subsection {
+    width: 100%;
+    position: relative;
+    padding-top: min(4.16667vw, 5rem);
+  }
+
+  .group-wrapper-subsection .heading_main .fs-40 {
+    text-align: left;
+  }
+
+  .group-wrapper-subsection .heading_main .content_wrap {
+    padding-top: min(1.04167vw, 1.25rem);
+  }
+
+  .group-wrapper-subsection .main-content .cost-table-section .table-card {
+    width: 100%;
+    background-color: var(--theme-white);
+    box-shadow: 0px 4px 25px #0000001a;
+    border: 0;
+    overflow: hidden;
+    border-radius: 1.04167vw;
+    -webkit-border-radius: 1.04167vw;
+    -moz-border-radius: 1.04167vw;
+    -ms-border-radius: 1.04167vw;
+    -o-border-radius: 1.04167vw;
+  }
+
+  .group-wrapper-subsection .cost-table-section {
+    margin-top: min(2.60417vw, 3.125rem);
+  }
+
+  .group-wrapper-subsection .main-content .cost-table-section .table-card .table-content {
+    padding: 0;
+  }
+
+  .group-wrapper-subsection .main-content .cost-table-section .table-card .table-content .cost-table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+
+  .group-wrapper-subsection .main-content .cost-table-section .table-card .table-content .cost-table .table-header .header-row {
+    background-color: var(--theme-primary);
+    border-radius: 1.04167vw 1.04167vw 0px 0px;
+    border: 0;
+    -webkit-border-radius: 1.04167vw 1.04167vw 0px 0px;
+    -moz-border-radius: 1.04167vw 1.04167vw 0px 0px;
+    -ms-border-radius: 1.04167vw 1.04167vw 0px 0px;
+    -o-border-radius: 1.04167vw 1.04167vw 0px 0px;
+  }
+
+  .group-wrapper-subsection .main-content .cost-table-section .table-card .table-content .cost-table .table-header .header-row:hover {
+    background-color: var(--theme-primary);
+  }
+
+  .group-wrapper-subsection .main-content .cost-table-section .table-card .table-content .cost-table .table-header .header-row .header-cell {
+    font-weight: 700;
+    color: var(--theme-white);
+    font-size: 14px;
+    line-height: normal;
+    height: min(2.60417vw, 3.125rem);
+    padding: min(0.52083vw, 0.625rem);
+  }
+
+  .group-wrapper-subsection .main-content .cost-table-section .table-card .table-content .cost-table th:first-child,
+  .group-wrapper-subsection .main-content .cost-table-section .table-card .table-content .cost-table td:first-child {
+    width: 34%;
+  }
+
+  .group-wrapper-subsection .main-content .cost-table-section .table-card .table-content .cost-table th,
+  .group-wrapper-subsection .main-content .cost-table-section .table-card .table-content .cost-table td {
+    width: 22%;
+    border-right: 1px solid #d9d9d980;
+  }
+
+  @media (min-width: 768px) {
+    .group-wrapper-subsection .main-content .cost-table-section .table-card .table-content .cost-table .table-header .header-row .header-cell {
+      font-size: 16px;
+      height: 60px;
+      padding: 15px;
+    }
+  }
+
+  @media (min-width: 1024px) {
+    .group-wrapper-subsection .main-content .cost-table-section .table-card .table-content .cost-table .table-header .header-row .header-cell {
+      font-size: min(0.9375vw, 1.125rem);
+      height: min(3.64583vw, 4.375rem);
+      padding: min(1.04167vw, 1.25rem);
+    }
+  }
+
+  .group-wrapper-subsection .main-content .cost-table-section .table-card .table-content .cost-table .table-header .header-row .header-cell.text-left {
+    text-align: left;
+  }
+
+  .group-wrapper-subsection .main-content .cost-table-section .table-card .table-content .cost-table .table-header .header-row .header-cell.text-center {
+    text-align: center;
+  }
+
+  .group-wrapper-subsection .main-content .cost-table-section .table-card .table-content .cost-table .table-body .body-row {
+    height: 60px;
+    border-bottom: 1px solid #e5e7eb;
+  }
+
+  @media (min-width: 1024px) {
+    .group-wrapper-subsection .main-content .cost-table-section .table-card .table-content .cost-table .table-body .body-row {
+      height: min(5.26042vw, 6.3125rem);
+    }
+  }
+
+  .group-wrapper-subsection .main-content .cost-table-section .table-card .table-content .cost-table .table-body .body-row:hover {
+    background-color: inherit;
+  }
+
+  .group-wrapper-subsection .main-content .cost-table-section .table-card .table-content .cost-table .table-body .body-row.bg-white {
+    background-color: white;
+  }
+
+  .group-wrapper-subsection .main-content .cost-table-section .table-card .table-content .cost-table .table-body .body-row.bg-gray {
+    background-color: #f5f5f5;
+  }
+
+  .group-wrapper-subsection .main-content .cost-table-section .table-card .table-content .cost-table .table-body .body-row .body-cell {
+    font-family: "Inter", Helvetica, sans-serif;
+    line-height: normal;
+    padding: 10px;
+  }
+
+  @media (min-width: 1024px) {
+    .group-wrapper-subsection .main-content .cost-table-section .table-card .table-content .cost-table .table-body .body-row .body-cell {
+      padding: min(1.04167vw, 1.25rem);
+    }
+  }
+
+  .group-wrapper-subsection .main-content .cost-table-section .table-card .table-content .cost-table .table-body .body-row .body-cell.cell-bold {
+    font-weight: 700;
+    color: var(--theme-content);
+    font-size: min(0.83333vw, 1rem);
+  }
+
+  @media (min-width: 1024px) {
+    .group-wrapper-subsection .main-content .cost-table-section .table-card .table-content .cost-table .table-body .body-row .body-cell.cell-bold {
+      font-size: min(1.14583vw, 1.375rem);
+    }
+  }
+
+  .group-wrapper-subsection .main-content .cost-table-section .table-card .table-content .cost-table .table-body .body-row .body-cell.cell-normal {
+    font-weight: normal;
+    color: var(--theme-content);
+    font-size: min(0.83333vw, 1rem);
+  }
+
+  @media (min-width: 1024px) {
+    .group-wrapper-subsection .main-content .cost-table-section .table-card .table-content .cost-table .table-body .body-row .body-cell.cell-normal {
+      font-size: min(1.04167vw, 1.25rem);
+    }
+  }
+
+  .group-wrapper-subsection .main-content .cost-table-section .table-card .table-content .cost-table .table-body .body-row .body-cell.text-left {
+    text-align: left;
+    padding-left: min(4.16667vw, 5rem);
+  }
+
+  .group-wrapper-subsection .main-content .cost-table-section .table-card .table-content .cost-table .table-body .body-row .body-cell.text-center {
+    text-align: center;
+  }
+
+  .group-wrapper-subsection .detailed-cost-section {
+    width: 100%;
+    position: relative;
+    margin-top: min(4.16667vw, 5rem);
+  }
+
+  .group-wrapper-subsection .detailed-cost-section .sub_heading .content_wrap {
+    padding-top: 10px;
+  }
+
+  .group-wrapper-subsection .detailed-cost-section .sub_heading .content_wrap>* {
+    color: var(--theme-content);
+    font-weight: 400;
+  }
+
+  .group-wrapper-subsection .main-content .detailed-cost-section .section-intro {
+    text-align: center;
+    margin-bottom: 60px;
+  }
+
+  @media (min-width: 1024px) {
+    .group-wrapper-subsection .main-content .detailed-cost-section .section-intro {
+      margin-bottom: 102px;
+    }
+  }
+
+  .group-wrapper-subsection .main-content .detailed-cost-section .section-intro h3 {
+    font-family: "Inter", Helvetica, sans-serif;
+    font-weight: 700;
+    color: var(--theme-sub-heading);
+    font-size: 20px;
+    line-height: normal;
+    margin-bottom: 25px;
+  }
+
+  @media (min-width: 768px) {
+    .group-wrapper-subsection .main-content .detailed-cost-section .section-intro h3 {
+      font-size: 24px;
+    }
+  }
+
+  @media (min-width: 1024px) {
+    .group-wrapper-subsection .main-content .detailed-cost-section .section-intro h3 {
+      font-size: 28px;
+      margin-bottom: 43px;
+    }
+  }
+
+  .group-wrapper-subsection .main-content .detailed-cost-section .section-intro p {
+    font-family: "Inter", Helvetica, sans-serif;
+    font-weight: normal;
+    color: var(--theme-content);
+    font-size: 16px;
+    text-align: center;
+    line-height: 1.6;
+    max-width: 100%;
+    margin: 0 auto;
+  }
+
+  @media (min-width: 768px) {
+    .group-wrapper-subsection .main-content .detailed-cost-section .section-intro p {
+      font-size: 18px;
+    }
+  }
+
+  @media (min-width: 1024px) {
+    .group-wrapper-subsection .main-content .detailed-cost-section .section-intro p {
+      font-size: 20px;
+      line-height: 2;
+      max-width: 847px;
+    }
+  }
+
+  .group-wrapper-subsection .main-content .detailed-cost-section .detailed-table-card {
+    width: 100%;
+    background-color: white;
+    border-radius: 20px;
+    box-shadow: 0px 4px 25px #0000001a;
+    border: 0;
+    overflow: hidden;
+    margin-top: 35px;
+  }
+
+  .group-wrapper-subsection .main-content .detailed-cost-section .detailed-table-card .detailed-table-content .detailed-table th:first-child,
+  .group-wrapper-subsection .main-content .detailed-cost-section .detailed-table-card .detailed-table-content .detailed-table td:first-child {
+    width: 34%;
+    padding-left: 80px !important;
+  }
+
+  .group-wrapper-subsection .main-content .detailed-cost-section .detailed-table-card .detailed-table-content .detailed-table th,
+  .group-wrapper-subsection .main-content .detailed-cost-section .detailed-table-card .detailed-table-content .detailed-table td {
+    width: 22%;
+    border-right: 1px solid #d9d9d980;
+  }
+
+  .group-wrapper-subsection .main-content .detailed-cost-section .detailed-table-card .detailed-table-content {
+    padding: 0;
+  }
+
+  .group-wrapper-subsection .main-content .detailed-cost-section .detailed-table-card .detailed-table-content .detailed-table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+
+  .group-wrapper-subsection .main-content .detailed-cost-section .detailed-table-card .detailed-table-content .detailed-table .detailed-header .detailed-header-row {
+    background-color: var(--theme-secondary);
+    ;
+    border-radius: 20px 20px 0px 0px;
+    border: 0;
+  }
+
+  .group-wrapper-subsection .main-content .detailed-cost-section .detailed-table-card .detailed-table-content .detailed-table .detailed-header .detailed-header-row:hover {
+    background-color: var(--theme-secondary);
+    ;
+  }
+
+  .group-wrapper-subsection .main-content .detailed-cost-section .detailed-table-card .detailed-table-content .detailed-table .detailed-header .detailed-header-row .detailed-header-cell {
+    font-weight: 700;
+    color: white;
+    height: 50px;
+    padding: 10px;
+  }
+
+  @media (min-width: 768px) {
+    .group-wrapper-subsection .main-content .detailed-cost-section .detailed-table-card .detailed-table-content .detailed-table .detailed-header .detailed-header-row .detailed-header-cell {
+      font-size: 16px;
+      height: 60px;
+      padding: 15px;
+    }
+  }
+
+  @media (min-width: 1024px) {
+    .group-wrapper-subsection .main-content .detailed-cost-section .detailed-table-card .detailed-table-content .detailed-table .detailed-header .detailed-header-row .detailed-header-cell {
+      font-size: min(0.9375vw, 1.125rem);
+      height: 70px;
+    }
+  }
+
+  .group-wrapper-subsection .main-content .detailed-cost-section .detailed-table-card .detailed-table-content .detailed-table .detailed-header .detailed-header-row .detailed-header-cell.text-left {
+    text-align: left;
+  }
+
+  .group-wrapper-subsection .main-content .detailed-cost-section .detailed-table-card .detailed-table-content .detailed-table .detailed-header .detailed-header-row .detailed-header-cell.text-center {
+    text-align: center;
+  }
+
+  .group-wrapper-subsection .main-content .detailed-cost-section .detailed-table-card .detailed-table-content .detailed-table .detailed-body .detailed-body-row {
+    height: 50px;
+    border: 0;
+  }
+
+  @media (min-width: 1024px) {
+    .group-wrapper-subsection .main-content .detailed-cost-section .detailed-table-card .detailed-table-content .detailed-table .detailed-body .detailed-body-row {
+      height: min(3.64583vw, 4.375rem);
+    }
+  }
+
+  .group-wrapper-subsection .main-content .detailed-cost-section .detailed-table-card .detailed-table-content .detailed-table .detailed-body .detailed-body-row:hover {
+    background-color: inherit;
+  }
+
+  .group-wrapper-subsection .main-content .detailed-cost-section .detailed-table-card .detailed-table-content .detailed-table .detailed-body .detailed-body-row.bg-white {
+    background-color: var(--theme-white);
+  }
+
+  .group-wrapper-subsection .main-content .detailed-cost-section .detailed-table-card .detailed-table-content .detailed-table .detailed-body .detailed-body-row.bg-gray {
+    background-color: #f5f5f5;
+  }
+
+  .group-wrapper-subsection .main-content .detailed-cost-section .detailed-table-card .detailed-table-content .detailed-table .detailed-body .detailed-body-row.rounded-bottom {
+    border-radius: 0px 0px 20px 20px;
+  }
+
+  .group-wrapper-subsection .main-content .detailed-cost-section .detailed-table-card .detailed-table-content .detailed-table .detailed-body .detailed-body-row .detailed-body-cell {
+    font-family: "Inter", Helvetica, sans-serif;
+    line-height: normal;
+    padding: 10px;
+  }
+
+  .group-wrapper-subsection .main-content .detailed-cost-section .detailed-table-card .detailed-table-content .detailed-table .detailed-body .detailed-body-row .detailed-body-cell.cell-medium {
+    font-weight: 500;
+    color: var(--theme-content);
+    font-size: 16px;
+  }
+
+  @media (min-width: 1024px) {
+    .group-wrapper-subsection .main-content .detailed-cost-section .detailed-table-card .detailed-table-content .detailed-table .detailed-body .detailed-body-row .detailed-body-cell.cell-medium {
+      font-size: min(1.04167vw, 1.25rem);
+    }
+  }
+
+  .group-wrapper-subsection .main-content .detailed-cost-section .detailed-table-card .detailed-table-content .detailed-table .detailed-body .detailed-body-row .detailed-body-cell.cell-normal {
+    font-weight: normal;
+    color: var(--theme-content);
+    font-size: 16px;
+  }
+
+  @media (min-width: 1024px) {
+    .group-wrapper-subsection .main-content .detailed-cost-section .detailed-table-card .detailed-table-content .detailed-table .detailed-body .detailed-body-row .detailed-body-cell.cell-normal {
+      font-size: min(1.04167vw, 1.25rem);
+    }
+  }
+
+  .group-wrapper-subsection .main-content .detailed-cost-section .detailed-table-card .detailed-table-content .detailed-table .detailed-body .detailed-body-row .detailed-body-cell.text-left {
+    text-align: left;
+  }
+
+  .group-wrapper-subsection .main-content .detailed-cost-section .detailed-table-card .detailed-table-content .detailed-table .detailed-body .detailed-body-row .detailed-body-cell.text-center {
+    text-align: center;
+  }
+
+  @media only screen and (max-width: 1199px) {
+    .group-wrapper-subsection .main-content .cost-table-section .table-card .table-content .cost-table .table-body .body-row .body-cell.cell-bold {
+      font-size: 16px;
+    }
+
+    .group-wrapper-subsection .main-content .cost-table-section .table-card .table-content .cost-table .table-body .body-row .body-cell.cell-normal {
+      font-size: 16px;
+    }
+
+    .group-wrapper-subsection .main-content .cost-table-section .table-card .table-content .cost-table .table-header .header-row .header-cell {
+      font-size: 16px;
+      height: min(5.84583vw, 4.375rem);
+    }
+
+    .group-wrapper-subsection .main-content .cost-table-section .table-card .table-content .cost-table .table-body .body-row .body-cell {
+      padding: min(2.04167vw, 1.25rem);
+    }
+
+    .group-wrapper-subsection .detailed-cost-section {
+      margin-top: min(5.16667vw, 5rem);
+    }
+
+    .group-wrapper-subsection .main-content .detailed-cost-section .detailed-table-card .detailed-table-content .detailed-table .detailed-header .detailed-header-row .detailed-header-cell {
+      font-size: 16px;
+    }
+
+    .group-wrapper-subsection .main-content .detailed-cost-section .detailed-table-card .detailed-table-content .detailed-table .detailed-body .detailed-body-row .detailed-body-cell.cell-medium {
+      font-size: 16px;
+    }
+
+    .group-wrapper-subsection .main-content .detailed-cost-section .detailed-table-card .detailed-table-content .detailed-table .detailed-body .detailed-body-row .detailed-body-cell {
+      padding: 20px 10px;
+    }
+
+    .group-wrapper-subsection .main-content .detailed-cost-section .detailed-table-card .detailed-table-content .detailed-table .detailed-body .detailed-body-row .detailed-body-cell.cell-normal {
+      font-size: 16px;
+    }
+  }
+
+  @media only screen and (max-width: 991px) {
+    .group-wrapper-subsection {
+      padding-top: 40px;
+    }
+
+    .group-wrapper-subsection .heading_main .content_wrap {
+      padding-top: 15px;
+    }
+
+    .group-wrapper-subsection .cost-table-section {
+      margin-top: 25px;
+    }
+
+    .group-wrapper-subsection .main-content .detailed-cost-section .detailed-table-card .detailed-table-content .detailed-table th:first-child,
+    .group-wrapper-subsection .main-content .detailed-cost-section .detailed-table-card .detailed-table-content .detailed-table td:first-child {
+      padding-left: 50px !important;
+    }
+  }
+
+  @media only screen and (max-width: 767px) {
+
+    .group-wrapper-subsection .detailed-cost-section {
+      margin-top: 35px;
+    }
+
+    .group-wrapper-subsection .main-content .cost-table-section .table-card .table-content .cost-table .table-header .header-row .header-cell {
+      height: 65px;
+    }
+
+    .group-wrapper-subsection .main-content .cost-table-section .table-card .table-content .cost-table .table-body .body-row .body-cell.text-left {
+      padding-left: 20px;
+    }
+
+    .group-wrapper-subsection .main-content .cost-table-section .table-card .table-content .cost-table .table-body .body-row .body-cell {
+      padding: 15px;
+    }
+
+    .group-wrapper-subsection .main-content .cost-table-section .table-card .table-content {
+      padding: 0;
+      width: 100%;
+      overflow-x: scroll;
+      white-space: nowrap;
+    }
+
+    .group-wrapper-subsection .main-content .cost-table-section .table-card .table-content .cost-table th,
+    .group-wrapper-subsection .main-content .cost-table-section .table-card .table-content .cost-table td {
+      padding: 10px !important;
+    }
+
+    .group-wrapper-subsection .main-content .detailed-cost-section .detailed-table-card .detailed-table-content {
+      width: 100%;
+      overflow-x: scroll;
+      white-space: nowrap;
+    }
+
+    .group-wrapper-subsection .main-content .detailed-cost-section .detailed-table-card .detailed-table-content .detailed-table th:first-child,
+    .group-wrapper-subsection .main-content .detailed-cost-section .detailed-table-card .detailed-table-content .detailed-table td:first-child {
+      padding-left: 25px !important;
+    }
+
+    .group-wrapper-subsection .main-content .detailed-cost-section .detailed-table-card .detailed-table-content .detailed-table .detailed-header .detailed-header-row .detailed-header-cell {
+      padding: 20px;
+    }
+
+    .group-wrapper-subsection .main-content .detailed-cost-section .detailed-table-card {
+      border-radius: 10px;
+      -webkit-border-radius: 10px;
+      -moz-border-radius: 10px;
+      -ms-border-radius: 10px;
+      -o-border-radius: 10px;
+}
+  }
+
+  /* Knee Replacement Surgery Cost in Mumbai section end  */
+
+  /* FAQ section start  */
+
+  .faq_section {
+    position: relative;
+    width: 100%;
+    padding-top: min(5.46875vw, 6.5625rem);
+    padding-bottom: min(7.03125vw, 8.4375rem);
+  }
+
+  .faq_section .footer_inr {
+    margin-top: min(3.125vw, 3.75rem);
+    width: 100%;
+    max-width: min(66.82292vw, 80.1875rem);
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .faq_accordion .accordion_item {
+    padding: min(1.25vw, 1.5rem) min(2.08333vw, 2.5rem) min(1.25vw, 1.5rem) min(2.60417vw, 3.125rem);
+    position: relative;
+    border: 1px solid #8f8fad4d;
+    background: var(--theme-white);
+    box-shadow: 0 4px 20px 0 #57585a0f;
+    border-radius: 0.52083vw;
+    -webkit-border-radius: 0.52083vw;
+    -moz-border-radius: 0.52083vw;
+    -ms-border-radius: 0.52083vw;
+    -o-border-radius: 0.52083vw;
+  }
+
+  .faq_accordion .accordion_item+.accordion_item {
+    margin-top: min(0.83333vw, 1rem)
+  }
+
+  .faq_accordion .accordion_item .title {
+    margin: 0;
+    cursor: pointer;
+    display: block;
+    position: relative;
+    transition: color 0.3s ease-in-out, margin 0.3s ease-in-out;
+    -webkit-transition: color 0.3s ease-in-out, margin 0.3s ease-in-out;
+    -moz-transition: color 0.3s ease-in-out, margin 0.3s ease-in-out;
+    -ms-transition: color 0.3s ease-in-out, margin 0.3s ease-in-out;
+    -o-transition: color 0.3s ease-in-out, margin 0.3s ease-in-out;
+    text-decoration: none;
+    color: var(--theme-light-content);
+    font-size: min(1.14583vw, 1.375rem);
+    font-weight: 400;
+    padding-right: min(1.04167vw, 1.25rem);
+  }
+
+  .faq_accordion .accordion_item .title .faq_icon {
+    position: absolute;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%) rotate(0deg);
+    -webkit-transform: translateY(-50%) rotate(0deg);
+    -moz-transform: translateY(-50%) rotate(0deg);
+    -ms-transform: translateY(-50%) rotate(0deg);
+    -o-transform: translateY(-50%) rotate(0deg);
+    transition: all 0.3s ease-in-out;
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -ms-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    width: 2.083vw;
+    height: 2.083vw
+  }
+
+  .faq_accordion .accordion_item .title .faq_icon svg {
+    width: 100%
+  }
+
+  .faq_accordion .accordion_item:not(:first-child) .accordion_content {
+    display: none
+  }
+
+  .faq_accordion .accordion_item .accordion_content,
+  .faq_accordion .accordion_item .accordion_content p {
+    max-width: 55.15625vw;
+    margin-bottom: 0;
+    transition: color 0.3s ease-in-out;
+    -webkit-transition: color 0.3s ease-in-out;
+    -moz-transition: color 0.3s ease-in-out;
+    -ms-transition: color 0.3s ease-in-out;
+    -o-transition: color 0.3s ease-in-out;
+    color: var(--theme-light-content);
+    font-size: min(0.9375vw, 1.125rem);
+    font-weight: 400;
+    line-height: 1.55;
+  }
+
+  .faq_accordion .accordion_item.active {
+    /* background: #0E2D49; */
+    padding-top: min(2.08333vw, 2.5rem);
+    padding-bottom: min(2.08333vw, 2.5rem);
+    border: none;
+    position: relative;
+  }
+
+  .faq_accordion .accordion_item.active::before {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: min(0.52083vw, 0.625rem);
+    border-radius: 0 0 20px 20px;
+    background: #00A3FE;
+  }
+
+  .faq_accordion .accordion_item.active .title {
+    margin-bottom: min(1.04167vw, 1.25rem);
+    outline: none;
+    color: var(--theme-light-content);
+    font-size: min(1.25vw, 1.5rem);
+    font-weight: 700;
+  }
+
+  .faq_accordion .accordion_title.active {
+    outline: none
+  }
+
+  .faq_accordion .accordion_item.active .title .faq_icon {
+    transform: translateY(-50%) rotate(180deg);
+    -webkit-transform: translateY(-50%) rotate(180deg);
+    -moz-transform: translateY(-50%) rotate(180deg);
+    -ms-transform: translateY(-50%) rotate(180deg);
+    -o-transform: translateY(-50%) rotate(180deg);
+  }
+
+  .faq_accordion .accordion_item .title .faq_icon {
+    background: var(--theme-second-gradient);
+    border-radius: 100%;
+    -webkit-border-radius: 100%;
+    -moz-border-radius: 100%;
+    -ms-border-radius: 100%;
+    -o-border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 8px;
+  }
+
+  .faq_accordion .accordion_item.active .accordion_content {
+    display: block
+  }
+
+  .faq_accordion .accordion_item .accordion_content {
+    padding-left: 0
+  }
+
+  .faq_accordion .accordion_content {
+    margin-top: 1.094vw
+  }
+
+  @media only screen and (max-width: 1199px) {
+    .faq_section .footer_inr {
+      margin-top: 30px;
+      width: 100%;
+      max-width: min(70.82292vw, 80.1875rem);
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+    .faq_accordion .accordion_item.active {
+      padding-top: 25px;
+      padding-bottom: 25px;
+    }
+
+    .faq_accordion .accordion_item.active .title {
+      margin-bottom: 15px;
+      font-size: 18px;
+    }
+
+    .faq_accordion .accordion_item .accordion_content,
+    .faq_accordion .accordion_item .accordion_content p {
+      max-width: 95%;
+      font-size: 16px;
+    }
+
+    .faq_accordion .accordion_item .title .faq_icon {
+      width: 28px;
+      height: 28px;
+    }
+
+    .faq_accordion .accordion_item+.accordion_item {
+      margin-top: 12px;
+    }
+
+    .faq_accordion .accordion_item {
+      padding: 20px;
+    }
+
+    .faq_accordion .accordion_item .title {
+      font-size: 18px;
+      padding-right: 25px;
+      line-height: normal;
+    }
+  }
+
+  @media only screen and (max-width: 991px) {
+    .faq_section .footer_inr {
+      max-width: 100%;
+    }
+  }
+
+  @media only screen and (max-width: 767px) {
+    .faq_section {
+      padding-top: 35px;
+      padding-bottom: 35px;
+    }
+
+    .faq_section .footer_inr {
+      max-width: 100%;
+    }
+
+    .faq_accordion .accordion_item .accordion_content,
+    .faq_accordion .accordion_item .accordion_content p {
+      max-width: 100%;
+    }
+
+    .faq_accordion .accordion_item.active .title {
+      line-height: 1.4;
+    }
+
+    .faq_accordion .accordion_item.active::before {
+      height: 8px;
+    }
+
+    .faq_accordion .accordion_item .title {
+      line-height: 1.3;
+    }
+  }
+
+  /* FAQ section end  */
+
+
+  /* Footer section start  */
+
+  footer {
+    position: relative;
+    width: 100%;
+  }
+
+  footer .footer_content_inr {
+    padding: min(2.1875vw, 2.625rem) 0px;
+    position: relative;
+  }
+
+  footer::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: 1px;
+    background: var(--theme-light-white);
+  }
+
+  @media only screen and (max-width: 767px) {
+
+    footer .footer_content_inr .fs-16>* {
+      color: var(--theme-content);
+      text-align: center;
+      font-weight: 600;
+    }
+  }
+
+  footer .footer_content_inr {
+    padding: 20px 10px;
+    position: relative;
+  }
+
+  /* Footer section end  */
+
+  /* Footer Fixed section start  */
+
+  .advisor_bills_footer {
+    width: 100%;
+    position: sticky;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 2;
+  }
+
+  .advisor_bills_inr {
+    position: relative;
+    width: 100%;
+    background: var(--theme-light-blue);
+    padding-top: min(3.64583vw, 4.375rem);
+    padding-bottom: min(2.34375vw, 2.8125rem);
+    border-radius: 2.08333vw 2.08333vw 0 0;
+    -webkit-border-radius: 2.08333vw 2.08333vw 0 0;
+    -moz-border-radius: 2.08333vw 2.08333vw 0 0;
+    -ms-border-radius: 2.08333vw 2.08333vw 0 0;
+    -o-border-radius: 2.08333vw 2.08333vw 0 0;
+  }
+
+  .advisor_bills_footer .advisor_bills_img {
+    width: min(13.85417vw, 16.625rem);
+    height: min(18.54167vw, 22.25rem);
+    position: absolute;
+    bottom: 0;
+  }
+
+  .advisor_bills_footer .advisor_bills_img img {
+    width: 100%;
+    height: 100%;
+  }
+
+  .advisor_bills_footer .advisor_bills_content .fs-28 {
+    width: 100%;
+    max-width: min(39.32292vw, 47.1875rem);
+    color: var(--theme-content);
+    font-weight: 400;
+  }
+
+  .advisor_bills_footer .advisor_bills_content .fs-28 span {
+    font-weight: 700;
+  }
+
+  .advisor_bills_footer .advisor_bills_content .fs-18 {
+    width: 100%;
+    max-width: min(31.14583vw, 37.375rem);
+    margin-top: min(0.52083vw, 0.625rem);
+    color: var(--theme-light-content);
+    font-weight: 400;
+  }
+
+  .advisor_bills_footer .advisor_bills_btn {
+    text-align: right;
+  }
+
+  .advisor_bills_footer .advisory_cross_icon {
+    width: min(1.71875vw, 2.0625rem);
+    height: min(1.71875vw, 2.0625rem);
+    position: absolute;
+    top: min(1.5625vw, 1.875rem);
+    right: min(1.30208vw, 1.5625rem);
+  }
+
+
+  @media only screen and (max-width: 1199px) {
+    .advisor_bills_footer .advisor_bills_content .fs-28 {
+      max-width: 100%;
+      line-height: 1.4;
+    }
+
+    .advisor_bills_footer .advisor_bills_content .fs-18 {
+      max-width: 100%;
+      margin-top: 12px;
+    }
+
+    .advisor_bills_content {
+      padding-left: 20px;
+    }
+
+    .advisor_bills_footer .advisory_cross_icon {
+      width: 40px;
+      height: 40px;
+      top: 15px;
+      right: 10px;
+    }
+
+    .advisor_bills_footer .advisory_cross_icon svg {
+      width: 100%;
+      height: 100%;
+    }
+  }
+
+  @media only screen and (max-width: 991px) {
+    .advisor_bills_footer .advisor_bills_img {
+      width: min(18.85417vw, 16.625rem);
+      height: min(22.54167vw, 22.25rem);
+      position: absolute;
+      bottom: 0;
+      left: 12px;
+    }
+  }
+
+  @media only screen and (max-width: 767px) {
+    .advisor_bills_footer .advisor_bills_img img {
+      display: none;
+    }
+
+    .advisor_bills_inr {
+      padding-top: 30px;
+      padding-bottom: 25px;
+      border-radius: 20px 20px 0 0;
+      -webkit-border-radius: 20px 20px 0 0;
+      -moz-border-radius: 20px 20px 0 0;
+      -ms-border-radius: 20px 20px 0 0;
+      -o-border-radius: 20px 20px 0 0;
+    }
+
+    .advisor_bills_content {
+      padding-left: 0px;
+      margin-top: 10px;
+    }
+
+    .advisor_bills_footer .advisory_cross_icon {
+      top: 20px;
+      right: 20px;
+    }
+
+    .advisor_bills_footer .advisor_bills_btn {
+      margin-top: 10px;
+    }
+
+    .primary_btn {
+      font-size: 16px;
+      padding: 10px 25px;
+    }
+
+    .advisor_bills_footer .advisor_bills_content .fs-28 span {
+      line-height: 2;
+    }
+  }
+
+  /* Footer Fixed section end  */
